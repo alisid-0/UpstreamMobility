@@ -9,6 +9,7 @@ import tuvnord from './assets/tuvnord.jpg';
 import dashboard2 from './assets/dashboard2.jpg';
 import maintenance from './assets/maintenance.jpg';
 
+
 // Import Motion differently to avoid linter errors
 const MotionDiv = motion.div;
 
