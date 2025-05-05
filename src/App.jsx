@@ -5,6 +5,9 @@ import car1 from './assets/tire.jpg';
 import odometer from './assets/odometer.jpg';
 import sideview from './assets/side.jpg';
 import back from './assets/back.jpg';
+import tuvnord from './assets/tuvnord.jpg';
+import dashboard2 from './assets/dashboard2.jpg';
+import maintenance from './assets/maintenance.jpg';
 
 // Import Motion differently to avoid linter errors
 const MotionDiv = motion.div;
@@ -153,17 +156,17 @@ function App() {
             {
               title: "Comprehensive Diagnostics",
               description: "Access detailed error codes and system analyses from all vehicle subsystems.",
-              icon: "https://images.unsplash.com/photo-1560983073-c34aea380728?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
+              icon: dashboard2
             },
             {
               title: "Predictive Maintenance",
               description: "AI-powered algorithms predict potential failures before they occur, saving time and money.",
-              icon: "https://images.unsplash.com/photo-1516733968668-dbdce39c4651?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+              icon: maintenance
             },
             {
               title: "TÜV NORD Certified",
               description: "Meet the highest industry standards with our TÜV NORD certified technology.",
-              icon: "https://images.unsplash.com/photo-1510878933023-e2e2e3ecf132?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80"
+              icon: tuvnord
             }
           ].map((feature, index) => (
             <div key={index} className={`feature-card ${feature.className || ''}`}>
